@@ -149,9 +149,19 @@ body{
 .text-decoration_left span:nth-child(even){
 	width: 20px;
 }
-.text-decoration_center span:{
+.text-decoration_center span:nth-child(even){
+	display:block;
+	height: 3px;
+	width: 15px;
+	margin: 3px auto;
 	
 }
-.text-decoration_right span:{
+.text-decoration_right span:nth-child(even){
+	display:block;
+	height: 3px;
+	width: 20px;
+	margin-left:13px
 	
 }
+	
+
